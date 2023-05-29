@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practic5pav", "Practic5pav.csproj", "{882267DA-C123-45DE-B8FB-0C87238280F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad4", "zad4\zad4.csproj", "{31BBEA9F-EA06-40A3-9301-838B5E83AC55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{882267DA-C123-45DE-B8FB-0C87238280F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882267DA-C123-45DE-B8FB-0C87238280F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{882267DA-C123-45DE-B8FB-0C87238280F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882267DA-C123-45DE-B8FB-0C87238280F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31BBEA9F-EA06-40A3-9301-838B5E83AC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31BBEA9F-EA06-40A3-9301-838B5E83AC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31BBEA9F-EA06-40A3-9301-838B5E83AC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31BBEA9F-EA06-40A3-9301-838B5E83AC55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B4E5AD4-8CD6-4D7C-9884-7A6FCEA548B5}
+	EndGlobalSection
+EndGlobal
