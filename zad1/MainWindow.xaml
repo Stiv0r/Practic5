@@ -1,0 +1,25 @@
+﻿<Window x:Class="zad1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zad1"
+        mc:Ignorable="d"
+        Title="MainWindow" Background="FloralWhite" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Введите числа:&#xD;&#xA;(0 - признак окончания ввода):" Grid.Row="0" Grid.Column="0" Margin="5,5,5,321" Grid.RowSpan="2" FontSize="20"/>
+            <TextBox x:Name="inputTextBox" Text="" Grid.Row="0" Grid.Column="1" Margin="5,5,5,321" Grid.RowSpan="2"/>
+            <Button Content="Решить" HorizontalAlignment="Left" Margin="308,367,0,0" Grid.Row="1" VerticalAlignment="Top" Width="110" Height="42" Click="Button_Click" Grid.Column="1" FontSize="22"/>
+            <TextBlock x:Name="otv" HorizontalAlignment="Left" Margin="10,98,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="120" Width="354" FontSize="22"><Run Text="Ответ"/><Run Text=":"/></TextBlock>
+        </Grid>
+    </Grid>
+</Window>
